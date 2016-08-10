@@ -24,8 +24,8 @@ public class AppController {
     @Autowired
     Application application;
 
-    @RequestMapping(path = "/getNewApiKey", method = POST)
-    public @ResponseBody Map<String, String> getNewApiKey(@RequestBody LoginRequest loginRequest) {
+    @RequestMapping(path = "/newApiKey", method = POST)
+    public @ResponseBody Map<String, String> newApiKey(@RequestBody LoginRequest loginRequest) {
         Map<String, String> ret = new HashMap<>();
         ret.put("STATUS", "SUCCESS");
         ret.put("msg", "This is for testing purposes only!");

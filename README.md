@@ -2,7 +2,7 @@
 
 The purpose of this example is to demonstrate using the `grant_type=client_credentials` OAuth2 workflow to access a restricted endpoint in a Spring Security Spring Boot WebMVC application with Stormpath integrated.
 
-The only explicitly defined endpoint in this example is `/getNewApiKey`
+The only explicitly defined endpoint in this example is `/newApiKey`
 
 The `/oauth/token` endpoint is provided by the Stormpath integration.
 
@@ -28,7 +28,7 @@ The examples below use the httpie client (https://github.com/jkbrzt/httpie)
 
 1. Get an api client key pair
 
-    `http POST localhost:8080/getNewApiKey email=<valid email address> password=<valid password>`
+    `http POST localhost:8080/newApiKey email=<valid email address> password=<valid password>`
     
     Response:
     

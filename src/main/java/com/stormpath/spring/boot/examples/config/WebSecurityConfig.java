@@ -14,6 +14,6 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
         http.apply(stormpath())
             .and()
             .authorizeRequests()
-            .antMatchers("/getNewApiKey").permitAll();
+            .antMatchers("/newApiKey").permitAll();
     }
 }
