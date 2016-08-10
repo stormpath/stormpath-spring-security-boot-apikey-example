@@ -73,7 +73,10 @@ The examples below use the httpie client (https://github.com/jkbrzt/httpie)
 
     Next, we'll hit the endpoint with authentication:
     
-    `http localhost:8080/restricted Authorization:"Bearer eyJraWQiOiJSOTJTQkhKQzFVNERBSU1HUTNNSE9HVk1YIiwic3R0IjoiYWNjZXNzIiwiYWxnIjoiSFMyNTYifQ..."`
+    ```
+    http localhost:8080/restricted \
+    Authorization:"Bearer eyJraWQiOiJSOTJTQkhKQzFVNERBSU1HUTNNSE9HVk1YIiwic3R0IjoiYWNjZXNzIiwiYWxnIjoiSFMyNTYifQ..."
+    ```
     
     Response:
     
