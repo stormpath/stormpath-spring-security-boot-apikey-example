@@ -22,8 +22,8 @@
     <artifactId>stormpath-sdk-examples-spring-boot-web</artifactId>
     <version>0.1.0-SNAPSHOT</version>
 
-    <name>Stormpath Java SDK :: Examples :: Spring Boot Webapp</name>
-    <description>A Spring Boot web application that uses Stormpath.</description>
+    <name>Stormpath Java SDK :: Examples :: Spring Security Spring Boot Webapp</name>
+    <description>A Spring Security Spring Boot web application that uses Stormpath.</description>
 
     <properties>
         <jdk.version>1.7</jdk.version>
